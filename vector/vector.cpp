@@ -16,6 +16,12 @@ int main(int argc,char **argv){
         cout<<vec[i]<<' ';
     }
     cout<<endl;
+
+    for(vector<int>::iterator it = vec.begin();it!=vec.end() ; ++it){
+        cout<<*it<<' ';
+    }
+    cout<<endl;
+
     for(int it:vec){
         cout<<it<<' ';
         it = 1;
